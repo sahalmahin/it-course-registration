@@ -4,7 +4,7 @@ import { BsBook } from "react-icons/bs";
 
 const Card = ({ card, handleMark }) => {
     console.log(card);
-    const { cover_image, title, description, price, duration } = card;
+    const {id, cover_image, title, description, price, duration } = card;
     return (
         <div className='w-[320px] h-[430px] bg-white rounded-xl p-5'>
             <img src={cover_image} alt="" />
@@ -15,7 +15,7 @@ const Card = ({ card, handleMark }) => {
                 <p className='flex items-center gap-2 font-medium text-gray-600'><BsBook size='1.5rem'></BsBook>Credit : {duration}hr</p>
             </div>
             
-            <button onClick={() => handleMark(card, duration)} className='text-white font-semibold bg-sky-500 w-full rounded-lg py-2 mb-2'>Select</button>
+            <button onClick={() => handleMark(card, duration, id)} className='text-white font-semibold bg-sky-500 w-full rounded-lg py-2 mb-2'>Select</button>
 
         </div>
     );
