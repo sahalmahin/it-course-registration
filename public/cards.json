@@ -2,63 +2,63 @@
     {
         "id": 1,
         "cover_image": "https://i.ibb.co/wd184rY/Rectangle-2.png",
-        "title": "Adventure in the Wilderness",
+        "title": "Introduction to OOP Python",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "9.99",
-        "duration": 2
+        "duration": 6
     },
     {
         "id": 2,
         "cover_image": "https://i.ibb.co/26dJ5bm/Rectangle-2-1.png",
-        "title": "Mysteries of Ancient Civilizations",
+        "title": "Database (MySQL)",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "12.99",
-        "duration": 2
+        "duration": 5
     },
     {
         "id": 3,
         "cover_image": "https://i.ibb.co/28VDxCC/Rectangle-2-2.png",
-        "title": "A Traveler's Guide",
+        "title": "Introduction to C Programming",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "7.99",
-        "duration": 2
+        "duration": 7
     },
     {
         "id": 4,
         "cover_image": "https://i.ibb.co/DYtbVpW/Rectangle-2-3.png",
-        "title": "Mastering the Art of Cooking",
+        "title": "Introduction to Algorithms",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "19.99",
-        "duration": 2
+        "duration": 9
     },
     {
         "id": 5,
         "cover_image": "https://i.ibb.co/grwRc7z/Rectangle-2-4.png",
-        "title": "Transform Your Body",
+        "title": "Introduction to C++ for DSA",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "14.99",
-        "duration": 2
+        "duration": 4
     },
     {
         "id": 6,
         "cover_image": "https://i.ibb.co/8gLLgGj/Rectangle-2-5.png",
-        "title": "The Art of Mindfulness",
+        "title": "Software Engineering",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "10.99",
-        "duration": 2
+        "duration": 8
     },
     {
         "id": 7,
         "cover_image": "https://i.ibb.co/1zc3ByV/Rectangle-2-6.png",
-        "title": "Capturing Moments",
+        "title": "Problem-Solving Part",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "16.99",
-        "duration": 2
+        "duration": 6
     },
     {
         "id": 8,
         "cover_image": "https://i.ibb.co/PrgkL3x/Rectangle-3.png",
-        "title": "Creative Writing Workshop",
+        "title": "Basic Data Structures",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "11.99",
         "duration": 2
@@ -66,9 +66,9 @@
     {
         "id": 9,
         "cover_image": "https://i.ibb.co/sPxxZ48/Rectangle-3-1.png",
-        "title": "Craft Your Space",
+        "title": "AWS, Cloud Computing",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "8.99",
-        "duration": 2
+        "duration": 5
     }
 ]

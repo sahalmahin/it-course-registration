@@ -14,9 +14,9 @@ const Card = ({ card, handleMark }) => {
                 <p className='flex items-center gap-2 font-medium text-gray-600'><BiDollar size='1.5rem'></BiDollar>Price : {price}</p>
                 <p className='flex items-center gap-2 font-medium text-gray-600'><BsBook size='1.5rem'></BsBook>Credit : {duration}hr</p>
             </div>
-
-            <button onClick={() => handleMark(card)} className='text-white font-semibold bg-sky-500 w-full rounded-lg py-2 mb-2'>Select</button>
             
+            <button onClick={() => handleMark(card, duration)} className='text-white font-semibold bg-sky-500 w-full rounded-lg py-2 mb-2'>Select</button>
+
         </div>
     );
 };

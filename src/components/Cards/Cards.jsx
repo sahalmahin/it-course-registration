@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import Card from '../Card/Card';
 import PropTypes from 'prop-types';
 
-const Cards = ({ handleMark }) => {
+const Cards = ({ handleMark,handleCredit }) => {
 
     const [cards, setCards] = useState([]);
 
@@ -20,6 +20,7 @@ const Cards = ({ handleMark }) => {
                     cards.map(card => <Card key={card.id}
                         card={card}
                         handleMark={handleMark}
+                        handleCredit={handleCredit}
                         ></Card>)
                 }
             </div>
@@ -29,6 +30,7 @@ const Cards = ({ handleMark }) => {
 
 Cards.propTypes = {
     handleMark: PropTypes.func,
+    handleCredit: PropTypes.func,
 }
 
 export default Cards;
