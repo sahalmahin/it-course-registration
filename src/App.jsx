@@ -15,7 +15,7 @@ function App() {
 
     const remainingHour = 20;
     if (hour >= remainingHour) {
-      return alert('Your credit limit has been exceeded');
+      return alert('Credit limit has been exceeded');
     } else {
       setMarks([...marks, blog]);
       setHour(hour + time);
