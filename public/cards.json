@@ -5,7 +5,7 @@
         "title": "Introduction to OOP Python",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "9.99",
-        "duration": 6
+        "duration": 5
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "title": "Introduction to C Programming",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "7.99",
-        "duration": 7
+        "duration": 5
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "title": "Introduction to Algorithms",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "19.99",
-        "duration": 9
+        "duration": 5
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "title": "Introduction to C++ for DSA",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "14.99",
-        "duration": 4
+        "duration": 5
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "title": "Software Engineering",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "10.99",
-        "duration": 8
+        "duration": 5
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "title": "Problem-Solving Part",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "16.99",
-        "duration": 6
+        "duration": 5
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "title": "Basic Data Structures",
         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
         "price": "11.99",
-        "duration": 2
+        "duration": 5
     },
     {
         "id": 9,

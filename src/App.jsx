@@ -11,13 +11,15 @@ function App() {
 
 
   const handleMark = (blog, time) => {
-    const newMarks = [...marks, blog];
-    setMarks(newMarks);
-    const newCredit = hour + time;
-    setHour(newCredit);
-    // const remaining = marks.filter(mark => mark.id === id)
-    // setMarks(remaining);
-    // alert('Already added');
+
+
+    const remainingHour = 20;
+    if (hour >= remainingHour) {
+      return alert('Your credit limit has been exceeded');
+    } else {
+      setMarks([...marks, blog]);
+      setHour(hour + time);
+    }
   }
 
   return (
